@@ -27,7 +27,10 @@
 }
 .download-b{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    text-align: center;
+    align-items: center;
     margin-top: 10px;
 }
 .specs{
@@ -103,4 +106,18 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
+}
+.instructions{
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin: 2%;
+}
+.instructionstext{
+    margin: 2%;
+    background-color: white;
 }
